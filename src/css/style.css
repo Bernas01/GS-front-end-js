@@ -1,24 +1,22 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Variáveis de cor e fonte */
 :root {
-  --cor-primaria: #013440;     /* Azul escuro mais sério */
-  --cor-secundaria: #056674;   /* Azul moderado */
-  --cor-terciaria: #e07a5f;    /* Tom terroso, leve e sério */
-  --cor-fundo: #f9fafb;        /* Fundo quase branco, suave */
-  --cor-texto: #222222;        /* Preto suave */
+  --cor-primaria: #013440;     
+  --cor-secundaria: #056674;   
+  --cor-terciaria: #e07a5f;    
+  --cor-fundo: #f9fafb;        
+  --cor-texto: #222222;        
   --cor-link: #056674;
   --cor-link-hover: #034f56;
   --font-principal: 'Montserrat', sans-serif;
   --font-secundaria: 'Lora', serif;
 }
 
-/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;700&display=swap');
 
 body {
@@ -33,7 +31,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Header */
 header#topo {
   background-color: var(--cor-primaria);
   color: white;
@@ -52,7 +49,6 @@ header#topo h1 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Navegação */
 nav ul {
   list-style: none;
   display: flex;
@@ -86,7 +82,6 @@ nav ul li a.secao-atual {
   box-shadow: 0 0 12px var(--cor-terciaria);
 }
 
-/* Main container */
 main {
   flex: 1;
   max-width: 900px;
@@ -97,7 +92,6 @@ main {
   gap: 4rem;
 }
 
-/* Título principal da página */
 main > h2 {
   font-family: var(--font-secundaria);
   font-size: 2.4rem;
@@ -109,7 +103,6 @@ main > h2 {
   padding-bottom: 0.3rem;
 }
 
-/* Seções */
 section {
   background: white;
   border-radius: 15px;

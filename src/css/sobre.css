@@ -1,17 +1,16 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Variáveis globais */
 :root {
-  --primary-color: #013440;          /* Azul escuro mais sério */
-  --accent-color: #e07a5f;           /* Tom terroso, leve e sério */
-  --secondary-color: #056674;         /* Azul moderado */
-  --background-color: #f9fafb;       /* Fundo quase branco, suave */
-  --text-color: #222222;             /* Preto suave */
+  --primary-color: #013440;          
+  --accent-color: #e07a5f;           
+  --secondary-color: #056674;         
+  --background-color: #f9fafb;       
+  --text-color: #222222;             
   --text-muted: #555555;
   --link-color: #056674;
   --link-hover-color: #034f56;
@@ -19,17 +18,15 @@
   --shadow-light: 0 6px 20px rgba(0, 119, 182, 0.15);
   --shadow-strong: 0 6px 20px rgba(0, 0, 0, 0.12);
 
-  --font-primary: 'Montserrat', sans-serif;   /* do primeiro */
-  --font-secondary: 'Lora', serif;            /* do primeiro */
+  --font-primary: 'Montserrat', sans-serif;   
+  --font-secondary: 'Lora', serif;            
 
   --border-radius: 12px;
   --transition-speed: 0.35s;
 }
 
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;700&display=swap');
 
-/* Body e fundo */
 body {
   font-family: var(--font-primary);
   background-color: var(--background-color);
@@ -43,7 +40,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Cabeçalho */
 header#topo {
   background-color: var(--primary-color);
   color: white;
@@ -66,7 +62,6 @@ header#topo h1 {
   transition: color var(--transition-speed);
 }
 
-/* Navegação */
 nav ul {
   list-style: none;
   display: flex;
@@ -103,7 +98,6 @@ nav ul li a.active {
   transform: scale(1.05);
 }
 
-/* Conteúdo principal */
 main#sobre-principal, main {
   flex: 1;
   max-width: 920px;
@@ -127,7 +121,6 @@ main#sobre-principal:hover, main:hover {
   transform: translateY(-6px);
 }
 
-/* Título principal da página */
 main > h2, main#sobre-principal h2 {
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -141,7 +134,6 @@ main > h2, main#sobre-principal h2 {
   text-transform: uppercase;
 }
 
-/* Seções */
 section {
   background: white;
   border-radius: 15px;
@@ -159,7 +151,6 @@ section:hover {
   transform: translateY(-10px);
 }
 
-/* Subtítulos das seções */
 section h3 {
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -171,7 +162,6 @@ section h3 {
   letter-spacing: 0.05em;
 }
 
-/* Parágrafos */
 section p, main#sobre-principal p {
   font-size: 1.1rem;
   line-height: 1.65;
@@ -182,7 +172,6 @@ section p, main#sobre-principal p {
   transition: color 0.3s ease;
 }
 
-/* Rodapé */
 footer#rodape {
   background-color: var(--primary-color);
   color: white;
@@ -198,7 +187,6 @@ footer#rodape {
   border-top-right-radius: var(--border-radius);
 }
 
-/* Responsividade */
 @media (max-width: 900px) {
   main#sobre-principal, main {
     margin: 2rem 1rem 3rem 1rem;

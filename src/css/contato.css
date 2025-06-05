@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Variáveis de cor e fonte */
 :root {
-  --cor-primaria: #013440;       /* Vinho (header, botões) */
-  --cor-secundaria: #056674;     /* Marrom escuro */
-  --cor-terciaria: #e07a5f;      /* Dourado */
-  --cor-fundo: #f9fafb;          /* Fundo principal escuro */
+  --cor-primaria: #013440;       
+  --cor-secundaria: #056674;     
+  --cor-terciaria: #e07a5f;      
+  --cor-fundo: #f9fafb;          
   --cor-secundaria-fundo: #000000;
   --cor-texto: #fff;
   --cor-texto-claro: #ddd;
@@ -23,7 +22,6 @@ html {
   --font-secundaria: 'Lora', serif;
 }
 
-/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
@@ -37,7 +35,6 @@ body {
   flex-direction: column;
 }
 
-/* Header */
 header {
   background-color: var(--cor-primaria);
   color: var(--cor-texto);
@@ -55,7 +52,6 @@ header h1 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Navegação */
 nav ul {
   display: flex;
   justify-content: center;
@@ -91,7 +87,6 @@ nav ul li a.ativo::after {
   width: 100%;
 }
 
-/* Main */
 main {
   display: flex;
   justify-content: center;
@@ -100,7 +95,6 @@ main {
   flex: 1;
 }
 
-/* Formulário */
 .form-container {
   background: #222;
   padding: 3rem 2.5rem;
@@ -188,7 +182,6 @@ button:hover {
   box-shadow: 0 0 12px rgba(75, 29, 19, 0.3);
 }
 
-/* Footer */
 footer {
   background-color: #111;
   color: var(--cor-detalhe);
@@ -202,7 +195,6 @@ footer {
   margin-top: auto;
 }
 
-/* Responsivo */
 @media (max-width: 900px) {
   main {
     padding: 2rem 1rem;
