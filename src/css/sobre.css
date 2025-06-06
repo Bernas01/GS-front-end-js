@@ -243,3 +243,41 @@ footer#rodape {
     gap: 1rem;
   }
 }
+nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+nav ul li a .icon {
+  font-size: 1.25em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu-personalizacao {
+  display: flex;
+  gap: 0.7em;
+  list-style: none;
+  margin-top: 1em;
+  align-items: center;
+}
+
+.menu-personalizacao button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3em;
+  padding: 0.25em 0.55em;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.menu-personalizacao button:hover,
+.menu-personalizacao button:focus {
+  background: var(--accent-color, #e07a5f);
+  color: #fff;
+}
+
+.menu-personalizacao .icon {
+  vertical-align: middle;
+}
