@@ -56,35 +56,30 @@ Editar
 git clone https://github.com/Bernas01/GS-front-end-js.git
 Acesse a pasta do projeto:
 
-bash
-Copiar
-Editar
+
 cd GS-front-end-js
+
 Abra o arquivo index.html no seu navegador.
 
-Como Contribuir
+Como Contribui
+
 Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
 Fork o repositório.
 
 Crie uma branch para sua feature:
 
-bash
-Copiar
-Editar
+
 git checkout -b minha-feature
+
 Faça commit das suas alterações:
 
-bash
-Copiar
-Editar
 git commit -m "Minha nova feature"
+
 Envie para seu repositório remoto:
 
-bash
-Copiar
-Editar
 git push origin minha-feature
+
 Abra um Pull Request.
 
 Contato
