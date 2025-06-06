@@ -226,25 +226,17 @@ nav ul li a .icon {
 .menu-personalizacao .icon {
   vertical-align: middle;
 }
-/* Para garantir contraste no modo escuro */
-body[data-tema="escuro"],
-body[data-tema="escuro"] #section,
-body[data-tema="escuro"] #quiz {
-  background-color: #181818 !important;
-  color: #fff !important;
+
+body[data-tema="claro"] {
+  background-color: white;
+  color: black;
 }
 
-body[data-tema="claro"],
-body[data-tema="claro"] #section,
-body[data-tema="claro"] #quiz {
-  background-color: #f9fafb !important;
-  color: #222 !important;
+body[data-tema="escuro"] {
+  background-color: black;
 }
 
-/* Natureza */
-body[data-tema="natureza"],
-body[data-tema="natureza"] #section,
-body[data-tema="natureza"] #quiz {
-  background-color: #d0f7e7 !important;
-  color: #013440 !important;
+body[data-tema="natureza"] {
+  background-color: #dff0d8;
+  color: #3c763d;
 }

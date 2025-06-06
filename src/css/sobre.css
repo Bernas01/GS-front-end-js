@@ -281,3 +281,18 @@ nav ul li a .icon {
 .menu-personalizacao .icon {
   vertical-align: middle;
 }
+
+body[data-tema="claro"] {
+  background-color: white;
+  color: black;
+}
+
+body[data-tema="escuro"] {
+  background-color: black;
+  color: white;
+}
+
+body[data-tema="natureza"] {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
